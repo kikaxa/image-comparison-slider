@@ -8,3 +8,5 @@ A handy draggable slider to quickly compare 2 images, powered by CSS3 and jQuery
 [Demo](http://codyhouse.co/demo/image-comparison-slider/index.html)
  
 [Terms](http://codyhouse.co/terms/)
+
+https://kikaxa.github.io/image-comparison-slider/index.html
