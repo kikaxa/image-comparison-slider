@@ -22,6 +22,8 @@
   let dt = e.dataTransfer
   let files = dt.files
 			
+  e.preventDefault()
+  e.stopPropagation()
   let reader = new FileReader()
   reader.readAsDataURL(files)
   reader.onloadend = function() {
@@ -33,6 +35,8 @@
   let dt = e.dataTransfer
   let files = dt.files
 			
+  e.preventDefault()
+  e.stopPropagation()
   let reader = new FileReader()
   reader.readAsDataURL(files)
   reader.onloadend = function() {
