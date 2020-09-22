@@ -20,7 +20,7 @@
 	<script> 
 		function handleDrop1(e) {
   let dt = e.dataTransfer
-  let files = dt.files
+  let files = [...dt.files][0]
 			
   e.preventDefault()
   e.stopPropagation()
@@ -33,7 +33,7 @@
 }
 		function handleDrop2(e) {
   let dt = e.dataTransfer
-  let files = dt.files
+  let files = [...dt.files][0]
 			
   e.preventDefault()
   e.stopPropagation()
